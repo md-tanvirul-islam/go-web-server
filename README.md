@@ -8,7 +8,6 @@ A simple HTTP server in Go that handles form submissions and serves static files
 - Handles GET requests to `/hello` with a simple response
 - Displays a form at `/form` for GET requests
 - Processes form submissions at `/form` for POST requests
-- Bootstrap 5 styled form interface
 
 ## Prerequisites
 
@@ -17,8 +16,7 @@ A simple HTTP server in Go that handles form submissions and serves static files
 
 ## Installation & Usage
 
-1. Clone the repository or copy the code
-2. Create a `static` directory and add your `form.html` file
+1. Clone the repository
 3. Run the server:
 
 ```bash
@@ -37,7 +35,7 @@ go run main.go
 ├── main.go            # Main server code
 └── static/
     ├── form.html      # Bootstrap form template
-    └── ...            # Other static files (CSS, JS, images)
+    └── index.html     # Welcome page
 ```
 
 ## Endpoints
